@@ -35,8 +35,8 @@ ao ano. Tais campos devem estar inicialmente preenchidos com os valores 200.000,
     a. Prazo (meses): prazo total do financiamento em meses, ou seja, o valor de Prazo (anos) multiplicado por 12.
     
     b. Juros ao mês: taxa de juros mensal corresponde à taxa anual informada. Tal taxa pode ser calculada com a seguinte fórmula:
-    
-    ![formula](https://render.githubusercontent.com/render/math?math=j_m = (1 + j_a)^{(1/12)}-1)
+
+    ![formula]("https://render.githubusercontent.com/render/math?math=j_m = (1 + j_a)^{(1/12)}-1")
 
     Onde j<sub>m</sub> é a taxa mensal, e j<sub>a</sub> é a taxa anual.
     
