@@ -20,13 +20,13 @@ Exercitar os seguintes conceitos trabalhados no Módulo:
 ---
 
 ### Enunciado
-Construa, utilizando HTML, CSS e JavaScript, uma página para simulação de um
-financiamento com base nos dados fornecidos, exibindo o valor das primeiras prestações,
-de acordo com o Sistema de Amortizações Constantes (SAC).
+
+Construa, utilizando HTML, CSS e JavaScript, uma página para simulação de um financiamento com base nos dados fornecidos, exibindo o valor das primeiras prestações, de acordo com o Sistema de Amortizações Constantes (SAC).
 
 ---
 
-> :rocket: Atividades
+> :rocket: **Atividades**
+
 1. Crie uma página com três campos de entrada numéricos: Valor, Prazo (anos) e Juros
 ao ano. Tais campos devem estar inicialmente preenchidos com os valores 200.000, 20 e 0,08, respectivamente.
 
@@ -35,10 +35,10 @@ ao ano. Tais campos devem estar inicialmente preenchidos com os valores 200.000,
     a. Prazo (meses): prazo total do financiamento em meses, ou seja, o valor de Prazo (anos) multiplicado por 12.
     
     b. Juros ao mês: taxa de juros mensal corresponde à taxa anual informada. Tal taxa pode ser calculada com a seguinte fórmula:
-    $$
-    j_m = (1 + j_a)^{(1/12)}-1
-    $$
-    Onde $j_m$ é a taxa mensal, e $j_a$ é a taxa anual.
+    
+    ![formula](https://render.githubusercontent.com/render/math?math=j_m = (1 + j_a)^{(1/12)}-1)
+
+    Onde j<sub>m</sub> é a taxa mensal, e j<sub>a</sub> é a taxa anual.
     
     c. Juros acumulados: soma de todos os valores pagos de juros, considerando todas as prestações, até o final do financiamento (mais detalhes no item 3).
     
