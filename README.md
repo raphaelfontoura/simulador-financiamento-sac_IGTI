@@ -36,7 +36,9 @@ ao ano. Tais campos devem estar inicialmente preenchidos com os valores 200.000,
     
     b. Juros ao mês: taxa de juros mensal corresponde à taxa anual informada. Tal taxa pode ser calculada com a seguinte fórmula:
 
-    ![formula]("https://render.githubusercontent.com/render/math?math=j_m = (1 + j_a)^{(1/12)}-1")
+    > <em>
+    > j<sub>m</sub> = (1 + j<sub>a</sub>) <sup>(1/12)</sup> - 1
+    > </em>
 
     Onde j<sub>m</sub> é a taxa mensal, e j<sub>a</sub> é a taxa anual.
     
