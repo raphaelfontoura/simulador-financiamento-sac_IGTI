@@ -1,3 +1,4 @@
+
 var button = document.querySelector("button");
 var inputValor = document.getElementById("valor");
 
@@ -5,6 +6,8 @@ var inputPrazoMeses = document.getElementById("res-prazo");
 var inputJuroMes = document.getElementById("res-juros");
 
 var tabelaLinhas = document.querySelector("tbody");
+
+var divTabela = document.getElementById("div-tabela");
 
 var juroMes, prazoMeses;
 
@@ -34,6 +37,8 @@ button.addEventListener("click", () => {
     }
   }
   document.getElementById("res-juros-acum").valueAsNumber = jurosTotais.toFixed(2);
+
+  divTabela.classList.remove("display-none")
 });
 
 function prazoAnoEmMeses(anos) {
